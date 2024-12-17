@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="CIdVqrDDjzUh4o43tMDA">
+    <mxGraphModel dx="1120" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-1" value="&lt;strong&gt;Tokenize and Process Query&lt;/strong&gt;&lt;br&gt;(Extract Nouns)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-2" value="&lt;strong&gt;User Input&lt;/strong&gt;&lt;br&gt;(Enter Query &amp;amp; Path)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-4" value="&lt;strong&gt;Draw and Display Graph&lt;/strong&gt;&lt;br&gt;(Visualize Connections)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-5" value="&lt;strong&gt;Build Subgraph for Selected Keywords&lt;/strong&gt;&lt;br&gt;(Connect Keywords to Files)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-6" value="&lt;strong&gt;Build Noun Index&lt;/strong&gt;&lt;br&gt;(Count Noun Occurrences)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-7" value="&lt;strong&gt;Tokenize and Extract Nouns&lt;/strong&gt;&lt;br&gt;(Remove Stop Words, Lemmatize)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-8" value="&lt;strong&gt;Document Storage&lt;/strong&gt;&lt;br&gt;(.txt Files in Folder)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.38" y="260" as="sourcePoint" />
+            <mxPoint x="499.38" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="vIXRnSxDal-lpHuqgv4y-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="170" as="sourcePoint" />
+            <mxPoint x="500" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vIXRnSxDal-lpHuqgv4y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="90" as="sourcePoint" />
+            <mxPoint x="210" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vIXRnSxDal-lpHuqgv4y-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="60" as="sourcePoint" />
+            <mxPoint x="290" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.37" y="360" as="sourcePoint" />
+            <mxPoint x="499" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.37" y="450" as="sourcePoint" />
+            <mxPoint x="499" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIXRnSxDal-lpHuqgv4y-1" target="vIXRnSxDal-lpHuqgv4y-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="380" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-17" value="Path" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIXRnSxDal-lpHuqgv4y-18" value="Query" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
